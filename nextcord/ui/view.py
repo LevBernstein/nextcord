@@ -142,7 +142,7 @@ class View:
         This option only affects persistent views.
         Whether or not to store the view separately for each message.
         The stored views are not automatically cleared, and can cause issues if
-        you run the bot continously for long periods of time if views are not properly stopped.
+        you run the bot continuously for long periods of time if views are not properly stopped.
         Setting this to False will force the client to find a persistent view added with
         `Bot.add_view` and not store the view separately.
     """

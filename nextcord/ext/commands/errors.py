@@ -514,7 +514,7 @@ class ScheduledEventNotFound(BadArgument):
 
 
 class BadBoolArgument(BadArgument):
-    """Exception raised when a boolean argument was not convertable.
+    """Exception raised when a boolean argument was not convertible.
 
     This inherits from :exc:`BadArgument`
 

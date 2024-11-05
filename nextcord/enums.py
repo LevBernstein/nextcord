@@ -404,7 +404,7 @@ class VerificationLevel(IntEnum):
     """
 
     none = 0
-    """No citeria set."""
+    """No criteria set."""
     low = 1
     """Member must have a verified email on their Discord account."""
     medium = 2

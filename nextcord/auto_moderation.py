@@ -90,7 +90,7 @@ class AutoModerationTriggerMetadata:
 
             Wildcard syntax (`*`) is not supported here.
     mention_total_limit: Optional[:class:`int`]
-        The maximum amount of mentions allowed in a messsage.
+        The maximum amount of mentions allowed in a message.
 
         .. versionadded:: 2.3
 

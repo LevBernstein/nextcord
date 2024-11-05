@@ -1355,7 +1355,7 @@ class BotBase(GroupMixin):
         message: :class:`nextcord.Message`
             The message to process commands for.
         content: :class:`str`
-            The content to subsitute for the message's content.
+            The content to substitute for the message's content.
         """
         old_content = message.content
         message.content = content

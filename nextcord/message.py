@@ -380,7 +380,7 @@ class Attachment(Hashable):
 
     @property
     def flags(self) -> AttachmentFlags:
-        """Optional[:class:`AttachmentFlags`]: The avaliable flags that the attachment has.
+        """Optional[:class:`AttachmentFlags`]: The available flags that the attachment has.
 
         .. versionadded:: 2.6
         """

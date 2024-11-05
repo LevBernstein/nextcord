@@ -1442,7 +1442,7 @@ class GroupMixin(Generic[CogT]):
             result = command(name, cls, *args, **kwargs)(func)
             self.add_command(result)
             return result  # type: ignore
-            # pyright really doesnt know what typevars are
+            # pyright really doesn't know what typevars are
 
         return decorator
 

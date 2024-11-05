@@ -2365,7 +2365,7 @@ class BaseApplicationCommand(CallbackMixin, CallbackWrapperMixin):
 
         if not check_dictionary_values(
             cmd_payload,
-            raw_payload,  # type: ignore  # specificity of typeddicts doesnt matter in validation
+            raw_payload,  # type: ignore  # specificity of typeddicts doesn't matter in validation
             "default_member_permissions",
             "description",
             "type",

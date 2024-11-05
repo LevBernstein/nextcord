@@ -555,7 +555,7 @@ class CategoryChannelConverter(IDConverter[nextcord.CategoryChannel]):
 
 
 class ThreadConverter(IDConverter[nextcord.Thread]):
-    """Coverts to a :class:`~nextcord.Thread`.
+    """Converts to a :class:`~nextcord.Thread`.
 
     All lookups are via the local guild.
 

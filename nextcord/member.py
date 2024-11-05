@@ -503,7 +503,7 @@ class Member(abc.Messageable, _UserTag):
     def display_name(self) -> str:
         """:class:`str`: Returns the user's display name.
 
-        This will return the name using the following hierachy:
+        This will return the name using the following hierarchy:
 
         1. Guild specific nickname
         2. Global Name (also known as 'Display Name' in the Discord UI)

@@ -77,7 +77,7 @@ class GuildPreview:
 
     @property
     def icon(self) -> Optional[Asset]:
-        """Optional[:class:`Asset`]: Returns the guild's icon asset, if avaliable."""
+        """Optional[:class:`Asset`]: Returns the guild's icon asset, if available."""
         if not self._icon:
             return None
 
@@ -85,7 +85,7 @@ class GuildPreview:
 
     @property
     def splash(self) -> Optional[Asset]:
-        """Optional[:class:`Asset`]: Returns the guild's invite splash asset, if avaliable."""
+        """Optional[:class:`Asset`]: Returns the guild's invite splash asset, if available."""
         if not self._splash:
             return None
 
@@ -93,7 +93,7 @@ class GuildPreview:
 
     @property
     def discovery_splash(self) -> Optional[Asset]:
-        """Optional[:class:`Asset`]: Returns the guild's discovery splash asset, if avaliable."""
+        """Optional[:class:`Asset`]: Returns the guild's discovery splash asset, if available."""
         if not self._discovery_splash:
             return None
 
